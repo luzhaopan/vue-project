@@ -6,12 +6,20 @@ import VueRouter from 'vue-router'
 // 1.2 安装路由
 Vue.use(VueRouter)
 
+//2.1 导入vue-resource
+import VueResource from 'vue-resource'
+//2.2 安装vue-resource
+Vue.use(VueResource)
+
 //导入APP跟组件
 import app from './App.vue'
 
 //按需引入mint-ui，保证顶部的样式
-import { Header } from 'mint-ui'
+import { Header,Swipe, SwipeItem } from 'mint-ui'
 Vue.component(Header.name, Header)//手动注册
+//轮播图需要注册的组件
+Vue.component(Swipe.name, Swipe)
+Vue.component(SwipeItem.name, SwipeItem)
 
 //导入MUI的样式,保证底部的样式
 import './lib/mui/css/mui.min.css'
