@@ -2,7 +2,7 @@
     <div class="cmt-container">
         <h3>发表评论</h3>
         <hr>
-        <textarea placeholder="请输入要BB的内容（做多吐槽120字）" maxlength="120"></textarea>
+        <textarea placeholder="请输入要评论的内容" maxlength="120"></textarea>
 
         <mt-button type="primary" size="large">发表评论</mt-button>
 

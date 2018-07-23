@@ -2,7 +2,7 @@
   <div class="app-container">
 
     <!-- 顶部Header 区域 -->
-    <mt-header fixed title="陆小攀的Demo"></mt-header>
+    <mt-header fixed title="Vue 工程项目"></mt-header>
 
 
     <!-- 中间路由router-view 区域 -->
